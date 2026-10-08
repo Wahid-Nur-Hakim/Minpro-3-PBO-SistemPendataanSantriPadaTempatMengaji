@@ -55,6 +55,7 @@ Setelah setiap operasi selesai, program kembali ke submenu hingga pengguna memil
 
 ### **Encapsulation**
 
+<img width="848" height="422" alt="image" src="https://github.com/user-attachments/assets/fd19d18e-c2c3-4a4e-abe9-de23cb1a5ced" />
 
 **Manfaat Encapsulation:**
 - ✅ Data terlindungi dari akses langsung
@@ -75,13 +76,15 @@ Setelah setiap operasi selesai, program kembali ke submenu hingga pengguna memil
 
 #### 1. **Method Overloading**
 
-
+<img width="722" height="292" alt="image" src="https://github.com/user-attachments/assets/139571eb-3521-4739-a148-08d8333abb8a" />
 
 #### 2. **Method Overriding**
 
+<img width="313" height="87" alt="image" src="https://github.com/user-attachments/assets/48509bdb-745d-45da-9c6e-0da2dfdecfd7" />
 
 ### **Abstraction**
 
+<img width="555" height="209" alt="image" src="https://github.com/user-attachments/assets/6f663379-141b-41f3-9e27-990c2801b72e" />
 
 <p align="justify">
 Abstract class RumahQuran mendefinisikan struktur dasar yang harus dimiliki oleh setiap pengguna sistem, yaitu atribut nama dan nomorTelepon, serta abstract method getJenisPengguna() yang tidak memiliki implementasi di parent class. Abstract method ini memaksa setiap child class untuk mengimplementasikan method tersebut sesuai dengan karakteristik masing-masing. Hal ini menyembunyikan kompleksitas implementasi dari user dan hanya menampilkan apa yang perlu diketahui.
@@ -90,6 +93,8 @@ Abstract class RumahQuran mendefinisikan struktur dasar yang harus dimiliki oleh
 ## ⭐ Penjelasan Letak Penerapan Nilai Tambah
 
 ### **Interface**
+
+<img width="389" height="60" alt="image" src="https://github.com/user-attachments/assets/8069ee17-6efe-434a-9162-1372841ddbe9" />
 
 <p align="justify">
 Interface CariData mendefinisikan kontrak yang harus dipenuhi oleh kelas yang mengimplementasikannya, yaitu method cocokDengan(String kataKunci). Interface ini diimplementasikan oleh kelas Santri dan Pengajar untuk memungkinkan fitur pencarian global. Dengan interface, program mencapai loose coupling di mana kelas yang menggunakan interface tidak perlu tahu detail implementasi dari kelas yang mengimplementasikannya.
