@@ -53,7 +53,7 @@ Setelah setiap operasi selesai, program kembali ke submenu hingga pengguna memil
 
 ## 🔒 Penerapan Encapsulation dan Inheritance
 
-### **Encapsulation (Pembungkusan)**
+### **Encapsulation**
 
 
 **Manfaat Encapsulation:**
@@ -61,7 +61,7 @@ Setelah setiap operasi selesai, program kembali ke submenu hingga pengguna memil
 - ✅ Validasi data dapat dilakukan di setter
 - ✅ Kode lebih mudah dipelihara
 
-### **Inheritance (Pewarisan)**
+### **Inheritance**
 
 
 **Manfaat Inheritance:**
@@ -83,6 +83,14 @@ Setelah setiap operasi selesai, program kembali ke submenu hingga pengguna memil
 ### **Abstraction**
 
 
+<p align="justify">
+Abstract class RumahQuran mendefinisikan struktur dasar yang harus dimiliki oleh setiap pengguna sistem, yaitu atribut nama dan nomorTelepon, serta abstract method getJenisPengguna() yang tidak memiliki implementasi di parent class. Abstract method ini memaksa setiap child class untuk mengimplementasikan method tersebut sesuai dengan karakteristik masing-masing. Hal ini menyembunyikan kompleksitas implementasi dari user dan hanya menampilkan apa yang perlu diketahui.
+</p>
+
 ## ⭐ Penjelasan Letak Penerapan Nilai Tambah
 
 ### **Interface**
+
+<p align="justify">
+Interface CariData mendefinisikan kontrak yang harus dipenuhi oleh kelas yang mengimplementasikannya, yaitu method cocokDengan(String kataKunci). Interface ini diimplementasikan oleh kelas Santri dan Pengajar untuk memungkinkan fitur pencarian global. Dengan interface, program mencapai loose coupling di mana kelas yang menggunakan interface tidak perlu tahu detail implementasi dari kelas yang mengimplementasikannya.
+</p>
