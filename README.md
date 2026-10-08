@@ -186,6 +186,12 @@ Abstract class RumahQuran mendefinisikan struktur dasar yang harus dimiliki oleh
   <em>Implementasi interface CariData</em>
 </p>
 
+<p align="center">
+<img width="527" height="191" alt="image" src="https://github.com/user-attachments/assets/014e8bec-523e-4cb1-be09-b93b6bcb548c" />
+<br>
+  <em>Implementasi method cocokDengan() pada interface CariData</em>
+</p>
+
 <p align="justify">
 Interface CariData mendefinisikan kontrak yang harus dipenuhi oleh kelas yang mengimplementasikannya, yaitu method cocokDengan(String kataKunci). Interface ini diimplementasikan oleh kelas Santri dan Pengajar untuk memungkinkan fitur pencarian global. Dengan interface, program mencapai loose coupling di mana kelas yang menggunakan interface tidak perlu tahu detail implementasi dari kelas yang mengimplementasikannya.
 </p>
