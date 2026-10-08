@@ -35,6 +35,8 @@ Program ini menggunakan struktur package MVC (Model-View-Controller) yang terpis
 | `model` | `CariData.java` | Interface untuk metode pencarian |
 | `view` | `Menu.java` | Menampilkan menu dan input user |
 
+---
+
 ## 🔄 Alur Program
 
 <p align="justify">
@@ -120,6 +122,8 @@ Class Santri dan Pengajar memakai kata kunci extends RumahQuran dan memanggil co
 - ✅ **Konsistensi**: Semua entitas punya struktur dasar yang sama
 - ✅ **Polymorphism**: Bisa perlakukan `Santri` dan `Pengajar` sebagai `RumahQuran`
 
+---
+
 ## 🎭 Penerapan Polymorphism dan Abstraction
 
 ### **Polymorphism**
@@ -150,6 +154,8 @@ Method Overriding terjadi ketika kelas Santri dan Pengajar meng-override abstrac
   <em>Penerapan Method Overriding</em>
 </p>
 
+---
+
 ### **Abstraction**
 
 <p align="center">
@@ -161,6 +167,8 @@ Method Overriding terjadi ketika kelas Santri dan Pengajar meng-override abstrac
 <p align="justify">
 Abstract class RumahQuran mendefinisikan struktur dasar yang harus dimiliki oleh setiap pengguna sistem, yaitu atribut nama dan nomorTelepon, serta abstract method getJenisPengguna() yang tidak memiliki implementasi di parent class. Abstract method ini memaksa setiap child class untuk mengimplementasikan method tersebut sesuai dengan karakteristik masing-masing. Hal ini menyembunyikan kompleksitas implementasi dari user dan hanya menampilkan apa yang perlu diketahui.
 </p>
+
+---
 
 ## ⭐ Penjelasan Letak Penerapan Nilai Tambah
 
