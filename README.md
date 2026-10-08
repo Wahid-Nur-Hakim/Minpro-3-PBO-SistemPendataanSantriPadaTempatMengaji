@@ -55,6 +55,14 @@ Setelah setiap operasi selesai, program kembali ke submenu hingga pengguna memil
 
 ### **Encapsulation**
 
+<p align="justify">
+Encapsulation diterapkan dengan membuat semua atribut di setiap kelas menjadi private, sehingga tidak dapat diakses langsung dari luar kelas. Akses terhadap atribut tersebut hanya dapat dilakukan melalui method getter dan setter yang disediakan.
+</p>
+
+<p align="justify">
+Setiap method setter dilengkapi dengan validasi untuk memastikan data yang masuk sesuai dengan aturan yang ditetapkan. Misalnya, umur santri harus antara 5 sampai 17 tahun, nomor telepon harus berupa angka sebanyak 10 sampai 15 digit, dan kapasitas kelas harus antara 1 sampai 30. Jika data tidak valid, program akan melempar exception atau meminta pengguna untuk mengisi ulang.
+</p>
+
 <p align="center">
 <img width="848" alt="Encapsulation" src="https://github.com/user-attachments/assets/fd19d18e-c2c3-4a4e-abe9-de23cb1a5ced" />
 <br>
@@ -118,6 +126,10 @@ Class Santri dan Pengajar memakai kata kunci extends RumahQuran dan memanggil co
 
 #### 1. **Method Overloading**
 
+<p align="justify">
+Method Overloading dapat dilihat pada kelas KelasMengaji di mana method setPengajar() didefinisikan dalam dua versi dengan parameter yang berbeda. Versi pertama menerima parameter bertipe String untuk mengatur pengajar berdasarkan nama saja, sedangkan versi kedua menerima parameter bertipe objek Pengajar untuk relasi yang lebih kuat antar objek. Overloading ini memberikan fleksibilitas kepada developer untuk memilih cara yang paling sesuai dengan konteks penggunaan.
+</p>
+
 <p align="center">
 <img width="722" height="292" alt="image" src="https://github.com/user-attachments/assets/139571eb-3521-4739-a148-08d8333abb8a" />
 <br>
@@ -127,6 +139,10 @@ Class Santri dan Pengajar memakai kata kunci extends RumahQuran dan memanggil co
 ---
 
 #### 2. **Method Overriding**
+
+<p align="justify">
+Method Overriding terjadi ketika kelas Santri dan Pengajar meng-override abstract method getJenisPengguna() dari parent class RumahQuran. Meskipun nama method sama, implementasinya berbeda di setiap kelas—kelas Santri mengembalikan string "Santri", sedangkan kelas Pengajar mengembalikan string "Pengajar". Hal ini memungkinkan objek dari kedua kelas tersebut dapat diperlakukan secara polymorphic sebagai objek bertipe RumahQuran.
+</p>
 
 <p align="center">
 <img width="313" height="87" alt="image" src="https://github.com/user-attachments/assets/48509bdb-745d-45da-9c6e-0da2dfdecfd7" />
@@ -139,7 +155,7 @@ Class Santri dan Pengajar memakai kata kunci extends RumahQuran dan memanggil co
 <p align="center">
 <img width="555" height="209" alt="image" src="https://github.com/user-attachments/assets/6f663379-141b-41f3-9e27-990c2801b72e" />
 <br>
-  <em>Gambar 1: Contoh encapsulation pada kelas Santri dengan atribut private dan getter/setter</em>
+  <em>Abstract class RumahQuran dengan abstract method getJenisPengguna()</em>
 </p>
 
 <p align="justify">
@@ -153,13 +169,13 @@ Abstract class RumahQuran mendefinisikan struktur dasar yang harus dimiliki oleh
 <p align="center">
 <img width="389" height="60" alt="image" src="https://github.com/user-attachments/assets/8069ee17-6efe-434a-9162-1372841ddbe9" />
 <br>
-  <em>Gambar 1: Contoh encapsulation pada kelas Santri dengan atribut private dan getter/setter</em>
+  <em>Interface CariData/setter</em>
 </p>
 
 <p align="center">
 <img width="562" height="34" alt="image" src="https://github.com/user-attachments/assets/ff68f6ca-a39f-49a7-818a-31fd4910937d" />
 <br>
-  <em>Gambar 1: Contoh encapsulation pada kelas Santri dengan atribut private dan getter/setter</em>
+  <em>Implementasi interface CariData</em>
 </p>
 
 <p align="justify">
